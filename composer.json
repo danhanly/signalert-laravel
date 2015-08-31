@@ -1,0 +1,27 @@
+{
+  "name": "notifly/laravel",
+  "description": "A Laravel package for Notifly",
+  "type": "package",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Dan Hanly",
+      "email": "danhanly@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "notifly/notifly": "dev-master",
+    "illuminate/support": "5.*"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:danhanly/notifly.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}

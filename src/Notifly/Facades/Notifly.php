@@ -1,6 +1,6 @@
 <?php
 
-namespace Notifly\Facade;
+namespace Notifly\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

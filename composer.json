@@ -1,7 +1,7 @@
 {
-  "name": "panday/laravel",
+  "name": "panday/laravel-package",
   "description": "A Laravel package for Panday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "package",
   "license": "GPL-2.0",
   "authors": [

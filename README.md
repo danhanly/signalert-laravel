@@ -1,1 +1,1 @@
-# Notifly for Laravel
+# Panday for Laravel

@@ -1,6 +1,7 @@
 {
-  "name": "notifly/laravel",
-  "description": "A Laravel package for Notifly",
+  "name": "panday/laravel",
+  "description": "A Laravel package for Panday",
+  "version": "1.0.0",
   "type": "package",
   "license": "GPL-2.0",
   "authors": [
@@ -11,18 +12,17 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "notifly/notifly": "dev-master",
+    "panday/panday": "dev-master",
     "illuminate/support": "5.*"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:danhanly/notifly.git"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Notifly\\": "src/Notifly"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
     }
   }
 }

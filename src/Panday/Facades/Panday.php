@@ -1,20 +1,20 @@
 <?php
 
-namespace Notifly\Facades;
+namespace Panday\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Notifly extends Facade
+class Panday extends Facade
 {
     /**
      * Gets the registered name of the component
      *
-     * @see \Notifly\Notifly
+     * @see \Panday\Panday
      *
      * @return string
      */
     protected static function getFacadeAccessor()
     {
-        return 'notifly';
+        return 'panday';
     }
 }

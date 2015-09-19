@@ -12,7 +12,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "signalert/signalert": "1.0.*",
+    "signalert/signalert": "1.0.4",
     "illuminate/support": "5.*"
   },
   "autoload": {

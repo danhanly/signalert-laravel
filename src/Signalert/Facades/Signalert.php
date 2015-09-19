@@ -1,20 +1,20 @@
 <?php
 
-namespace Panday\Facades;
+namespace Signalert\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Panday extends Facade
+class Signalert extends Facade
 {
     /**
      * Gets the registered name of the component
      *
-     * @see \Panday\Panday
+     * @see \Signalert\Signalert
      *
      * @return string
      */
     protected static function getFacadeAccessor()
     {
-        return 'panday';
+        return 'signalert';
     }
 }

@@ -12,12 +12,12 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "signalert/signalert": "dev-master",
+    "signalert/signalert": "1.0.*",
     "illuminate/support": "5.*"
   },
   "autoload": {
     "psr-4": {
-      "Notifly\\": "src/Notifly"
+      "Signalert\\": "src/Signalert"
     }
   },
   "extra": {

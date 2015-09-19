@@ -25,7 +25,7 @@ To integrate this package with your Laravel project, first add the Service Provi
 ```php
 'providers' => [
     ...
-    \Signalert\ServiceProviders\SignalertServiceProvider::class,
+    Signalert\ServiceProviders\SignalertServiceProvider::class,
 ];
 ```
 
@@ -34,7 +34,7 @@ Now add the Signalert Facade to your aliases, in the same file:
 ```php
 'aliases' => [
     ...
-    'Signalert' => \Signalert\Facades\Signalert::class,
+    'Signalert' => Signalert\Facades\Signalert::class,
 ];
 ```
 

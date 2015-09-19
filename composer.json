@@ -1,7 +1,7 @@
 {
   "name": "signalert/laravel-package",
   "description": "A Laravel package for Signalert",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "type": "package",
   "license": "GPL-2.0",
   "authors": [

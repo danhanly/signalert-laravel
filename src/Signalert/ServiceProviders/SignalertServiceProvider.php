@@ -15,7 +15,7 @@ class SignalertServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('signalert', function () {
-            return new Signalert();
+            return new Signalert(env('SIGNALERT_CONFIG_PATH', ''));
         });
     }
 }
